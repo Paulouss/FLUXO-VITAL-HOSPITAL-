@@ -5,11 +5,9 @@ document.addEventListener('DOMContentLoaded', function () {
     form.addEventListener('submit', function (event) {
       event.preventDefault(); 
 
-      
       const nome = form.querySelector('input[type="text"]').value.trim();
       const email = form.querySelector('input[type="email"]').value.trim();
 
-    
       if (nome && email) {
         alert(`Obrigado, ${nome}! Seu cadastro foi enviado com sucesso para o e-mail ${email}.`);
         form.reset();
@@ -19,5 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 });
+
 
 
