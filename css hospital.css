@@ -1,0 +1,28 @@
+header {
+    background-color: #003366;
+    color: white;
+    padding: 1.5rem;
+  }
+  
+  .hero {
+    background-color: #e6f2ff;
+    padding: 2rem 0;
+  }
+  
+  footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+  
+  .logo-img {
+    height: 60px;
+  }
+  
+  .carousel-img {
+    width: 88%;
+    height: 700px;
+    object-fit: cover;
+  }
+  
